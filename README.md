@@ -1,6 +1,6 @@
 # Training and Inference of Hugging Face models on Azure Databricks
 
-**This repository contains the code for the blog post series [Optimized Training and Inference of Hugging Face Models on Azure Databricks]().**
+**This repository contains the code for the blog post series [Optimized Training and Inference of Hugging Face Models on Azure Databricks](https://techcommunity.microsoft.com/t5/ai-customer-engineering-team/optimized-training-and-inference-of-hugging-face-models-on-azure/ba-p/3631357).**
 
 **If you want to reproduce the Databricks Notebooks, you should first follow the steps below to set up your environment:**
 
