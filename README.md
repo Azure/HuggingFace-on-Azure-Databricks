@@ -24,10 +24,10 @@
 
 **The notebooks should be run in the following order:**
 
-1. [*data_preparation.ipynb*](): it downloads and prepares the datasets needed for model training and inference.
-2. [*model_training_hvd.ipynb*](): it performs distributed fine tuning using *PyTorch* and *Horovod* on the pre-trained *Hugging Face* model.
-3. [*model_training_hvd_deepspeed.ipynb*](): it performs distributed fine tuning using *PyTorch* and *Horovod*, optimized with *DeepSpeed*, on the pre-trained *Hugging Face* model.
-4. [*model_inference_hvd.ipynb*](): it performs distributed inference using *PyTorch* and *Horovod* on the fine-tuned model.
-5. [*model_inference_hvd_deepspeed.ipynb*](): it performs distributed inference using *PyTorch* and *Horovod*, optimized with *DeepSpeed*, on the fine-tuned model.
-6. [*model_inference_pudf.ipynb*](): it performs distributed inference using *Transformer's Pipeline* and *Pandas UDF* on the fine-tuned model.
-7. [*model_inference_pudf_deepspeed.ipynb*]() it performs distributed inference using *Transformer's Pipeline* and *Pandas UDF*, optimized with *DeepSpeed*, on the fine-tuned model.
+1. [*data_preparation.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/data_preparation.ipynb): it downloads and prepares the datasets needed for model training and inference.
+2. [*model_training_hvd.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_training_hvd.ipynb): it performs distributed fine tuning using *PyTorch* and *Horovod* on the pre-trained *Hugging Face* model.
+3. [*model_training_hvd_deepspeed.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_training_hvd_deepspeed.ipynb): it performs distributed fine tuning using *PyTorch* and *Horovod*, optimized with *DeepSpeed*, on the pre-trained *Hugging Face* model.
+4. [*model_inference_hvd.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_inference_hvd.ipynb): it performs distributed inference using *PyTorch* and *Horovod* on the fine-tuned model.
+5. [*model_inference_hvd_deepspeed.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_inference_hvd_deepspeed.ipynb): it performs distributed inference using *PyTorch* and *Horovod*, optimized with *DeepSpeed*, on the fine-tuned model.
+6. [*model_inference_pudf.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_inference_pudf.ipynb): it performs distributed inference using *Transformer's Pipeline* and *Pandas UDF* on the fine-tuned model.
+7. [*model_inference_pudf_deepspeed.ipynb*](https://github.com/Azure/HuggingFace-on-Azure-Databricks/blob/main/model_inference_pudf_deepspeed.ipynb) it performs distributed inference using *Transformer's Pipeline* and *Pandas UDF*, optimized with *DeepSpeed*, on the fine-tuned model.
